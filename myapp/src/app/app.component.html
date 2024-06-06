@@ -1,0 +1,17 @@
+<app-sidenav (onToggleSidenav)="onToggleSideNav($event)"></app-sidenav>
+
+ <!-- <div class="container">
+    <div class="logo"><h3>logo</h3></div>
+    <div class="content">
+        <a href="">Home</a>
+        <a routerLink="product">PRODUCT</a>
+    </div>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div> -->
+ <!-- <app-sidenav></app-sidenav>  -->
+ <app-body
+   [collapsed]="isSideNavCollapsed"
+   [screenWidth]="screenWidth"
+ ></app-body>

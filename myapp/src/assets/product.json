@@ -1,0 +1,17 @@
+[
+    {
+        "id":111,
+        "name":"Tv",
+        "price":1234
+    },
+    {
+        "id":112,
+        "name":"laptop",
+        "price":2234
+    },
+    {
+        "id":111,
+        "name":"Washing Machine",
+        "price":3234
+    }
+]
